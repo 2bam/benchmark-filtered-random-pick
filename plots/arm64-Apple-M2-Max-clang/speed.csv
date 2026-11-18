@@ -1,0 +1,25 @@
+info                                            , simd   , rng      ,  batch,  ns_mean,  ns_best
+arm64 / Apple M2 Max / clang                    , neon   , shishua  ,      1,   0.4083,   0.3846
+arm64 / Apple M2 Max / clang                    , neon   , shishua  ,     10,   0.4063,   0.3846
+arm64 / Apple M2 Max / clang                    , neon   , shishua  ,    100,   0.3875,   0.3846
+arm64 / Apple M2 Max / clang                    , neon   , shishua  ,   1000,   0.4064,   0.3850
+arm64 / Apple M2 Max / clang                    , neon   , shishua  ,  10000,   0.3938,   0.3742
+arm64 / Apple M2 Max / clang                    , neon   , shishua  , 100000,   0.3990,   0.3846
+arm64 / Apple M2 Max / clang                    , scalar , lcg      ,      1,   0.9873,   0.9383
+arm64 / Apple M2 Max / clang                    , scalar , lcg      ,     10,   0.9865,   0.9383
+arm64 / Apple M2 Max / clang                    , scalar , lcg      ,    100,   0.9617,   0.9129
+arm64 / Apple M2 Max / clang                    , scalar , lcg      ,   1000,   0.9808,   0.9129
+arm64 / Apple M2 Max / clang                    , scalar , lcg      ,  10000,   0.9855,   0.9383
+arm64 / Apple M2 Max / clang                    , scalar , lcg      , 100000,   0.9754,   0.9129
+arm64 / Apple M2 Max / clang                    , scalar , lcg4     ,      1,   0.7442,   0.7138
+arm64 / Apple M2 Max / clang                    , scalar , lcg4     ,     10,   0.7573,   0.7333
+arm64 / Apple M2 Max / clang                    , scalar , lcg4     ,    100,   0.7552,   0.7329
+arm64 / Apple M2 Max / clang                    , scalar , lcg4     ,   1000,   0.7588,   0.7333
+arm64 / Apple M2 Max / clang                    , scalar , lcg4     ,  10000,   0.7684,   0.7329
+arm64 / Apple M2 Max / clang                    , scalar , lcg4     , 100000,   0.7794,   0.7333
+arm64 / Apple M2 Max / clang                    , scalar , xorshift ,      1,   1.8873,   1.7725
+arm64 / Apple M2 Max / clang                    , scalar , xorshift ,     10,   1.8235,   1.7725
+arm64 / Apple M2 Max / clang                    , scalar , xorshift ,    100,   1.8361,   1.7725
+arm64 / Apple M2 Max / clang                    , scalar , xorshift ,   1000,   1.8315,   1.7725
+arm64 / Apple M2 Max / clang                    , scalar , xorshift ,  10000,   1.8429,   1.7242
+arm64 / Apple M2 Max / clang                    , scalar , xorshift , 100000,   1.8855,   1.7725
